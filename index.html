@@ -8,25 +8,83 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
 
   <title>Template</title>
 </head>
 <body>
   
-  <header class="header">
-
-  </header>
-
   <main class="main-content">
-    <section class="">
+    
+    <div class="global-wrapper">
 
-    </section>
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="hero-heading">Sayohat haqidagi eng qiziq bloglarni kuzatib boring.</h1>
+          <a class="button hero-link" href="#">
+            <span class="hero-link-content">
+              <span class="hero-link-text">Top bloglar</span>
+            </span>
+          </a>
+        </div>
+      </section>
+
+
+      <section class="latest-videos">
+        <h2 class="lates-videos-heading">Eng so’nggi videolar</h2>
+
+        <hr class="latest-videos-devider">
+
+        <ul class="latest-videos-list">
+          <li class="latest-videos-item">
+            <div class="item-videos-latest">
+              <img src="img/uycha.jpg" alt="O’rmondagi uchburchaksimon uy" class="item-videos-latest-img" width="160" height="90" srcset="img/uycha.jpg 1x, img/uycha@2x.jpg 2x">
+              <div class="item-videos-latest-info">
+                <h3 class="item-videos-latest-info-heading"><a href="#" class="item-videos-latest-info-link">O’rmonda uchburchaksimon uy qurdik</a></h3>
+                <div class="item-videos-latest-info-meta">
+                  <time class="item-videos-latest-info-published-date">1 hafta oldin</time>
+                  <span class="item-videos-latest-info-view">873 ming</span>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="latest-videos-item">
+            <div class="item-videos-latest">
+              <img src="img/ko'l.jpg" alt="Tog'lar bag'ridagi sokin ko'l" class="item-videos-latest-img" width="160" height="90" srcset="img/ko'l.jpg 1x, img/ko'l@2x.jpg 2x">
+              <div class="item-videos-latest-info">
+                <h3 class="item-videos-latest-info-heading"><a href="#" class="item-videos-latest-info-link">Sibirliklarning qoldirib ketilgan uychalari</a></h3>
+                <div class="item-videos-latest-info-meta">
+                  <time class="item-videos-latest-info-published-date">3 hafta oldin</time>
+                  <span class="item-videos-latest-info-view">819 ming</span>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="latest-videos-item">
+            <div class="item-videos-latest">
+              <img src="img/o'rmon.jpg" alt="Mallarang kuchugi bilan ovqat pishirvotgan erkak" class="item-videos-latest-img" width="160" height="90" srcset="img/o'rmon.jpg 1x, img/o'rmon@2x.jpg 2x">
+              <div class="item-videos-latest-info">
+                <h3 class="item-videos-latest-info-heading"><a href="#" class="item-videos-latest-info-link">Yer-uyida mallarang kuchugim bilan tunab qoldik</a></h3>
+                <div class="item-videos-latest-info-meta">
+                  <time class="item-videos-latest-info-published-date">1 oy oldin</time>
+                  <span class="item-videos-latest-info-view">3.9 million</span>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <button class="button button-loadmore">Yana yuklash</button>
+      </section>
+
+    </div>
+
   </main>
-
-
-  <footer class="footer">
-
-  </footer>
 
   <script src="js/app.js"></script>
 </body>
